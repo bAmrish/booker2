@@ -34,7 +34,7 @@ class BookController {
                     value = "Book Json to be posted",
                     dataType = "JSON",
                     examples = @Example(@ExampleProperty(value = """
-                    { title: "The Old Man and the Sea", author: " Ernest Hemingway", rating: 5}
+                    {\n\ttitle: "The Old Man and the Sea",\n\tauthor: " Ernest Hemingway",\n\trating: 5\n}
                     """))
             )
     ])
