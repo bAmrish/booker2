@@ -134,3 +134,6 @@ environments:
                 testOnReturn: false
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
+app:
+  couchdb:
+    url: ${COUCH_DB_SERVER_URL}
