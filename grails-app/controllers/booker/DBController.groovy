@@ -11,12 +11,12 @@ class DBController {
     }
 
     def create() {
-        String dbName = params.id
+        String dbName = params.dbName
         render couchDbService.createDB(dbName) as JSON
     }
 
     def delete() {
-        String dbName = params.id
+        String dbName = params.dbName
         render couchDbService.deleteDB(dbName) as JSON
     }
 
